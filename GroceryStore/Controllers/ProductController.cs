@@ -22,11 +22,11 @@ namespace GroceryStore.Controllers
         }
 
         // GET: api/Products
-        [HttpGet]
-        public IEnumerable<Product> Get()
-        {
-            return db.products; ;
-        }
+        //[HttpGet]
+        //public IEnumerable<Product> Get()
+        //{
+        //    return db.products; ;
+        //}
 
         // GET: api/Products/5
         [HttpGet("{id}")]

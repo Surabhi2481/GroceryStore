@@ -14,6 +14,7 @@ namespace GroceryStore.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Vendor")]
     public class VendorController : ControllerBase
     {
 
